@@ -1,8 +1,26 @@
-.img_center{
-    margin:  0 auto;
+/*****
+      WHERE IS THE STYLESHEET HEADER ?
+****/
+.img_center {
+    margin: 0 auto;
     display: block;
 }
-.title_center{
+
+.title_center {
     text-align: center;
     margin: 20px;
+}
+
+.site-section {
+    padding: 1em 0 !important;
+}
+
+.row .blog-entries {
+    margin-top: -25px !important;
+}
+
+@media (max-width: 767.98px) {
+    .post-entry-horzontal a .text {
+        height: 300px !important;
+    }
 }

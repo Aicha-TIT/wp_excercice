@@ -8,9 +8,12 @@
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300, 400,700" rel="stylesheet">
 
+    <!-- c'est quoi le role de cette methode wp_head() ? -->
+    <!--  wp_head() vs get_header() ? -->
     <?php wp_head(); ?>
 
   </head>
+    <!-- c'est quoi les body_class() ? -->
   <body <?php body_class(); ?>>
 
 
@@ -53,9 +56,9 @@
                 'container' => 'ul',
                 'theme_location' => 'primary-menu',
                 'menu_class' => 'navbar-nav mx-auto',
-                'add_li_class' => 'nav-item nav-link'
+                'add_li_class' => 'nav-item nav-link ali'
               );
-              wp_nav_menu( $defaults);
+              wp_nav_menu($defaults);
             ?>
 
           </div>
